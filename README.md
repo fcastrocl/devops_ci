@@ -66,6 +66,8 @@ netsh interface portproxy add v4tov4 listenport=2375 listenaddress=192.168.1.94 
 netsh interface portproxy add v4tov4 listenport=6443 listenaddress=192.168.1.94 connectaddress=127.0.0.1 connectport=6443
 ```
 
+## Consume API backend ## 
 
-
-192.168.1.94
+```
+http://{kubernetes-ip}:{nodeport}/swagger-ui/index.html
+```
