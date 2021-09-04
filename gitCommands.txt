@@ -19,4 +19,4 @@ git branch -d "branch name"
 
 ## Token ## 
 
-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
+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
