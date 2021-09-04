@@ -1,0 +1,22 @@
+## Adding a new branch into project ## 
+
+ git branch feature/fc-17860 main
+
+## show branchs ## 
+
+git branch
+
+## Adding new branch to git repo
+
+git add .
+git commit -m "adding new branch"
+
+git push -u origin feature/fc-17860
+
+## Delete a branch 
+
+git branch -d "branch name"
+
+## Token ## 
+
+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
